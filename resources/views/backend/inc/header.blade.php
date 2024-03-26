@@ -27,3 +27,8 @@
     <meta name="author" content="ThemePixels">
 
     <title>Bracket Plus Responsive Bootstrap 4 Admin Template</title>
+    <style>
+        .desc{
+            width: 28%;
+        }
+    </style>

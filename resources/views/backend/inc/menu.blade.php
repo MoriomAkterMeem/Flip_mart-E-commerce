@@ -73,18 +73,22 @@
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
           <a href="#" class="br-menu-link with-sub">
+            <i class="menu-item-icon icon ion-ios-book-outline tx-22"></i>
+            <span class="menu-item-label">Sliders</span>
+          </a><!-- br-menu-link -->
+          <ul class="br-menu-sub">
+            <li class="sub-item"><a href="{{route('slider.manage')}}" class="sub-link">Manage All Slider</a></li>
+            <li class="sub-item"><a href="{{route('slider.create')}}" class="sub-link">Add New Slider</a></li>
+          </ul>
+        </li><!-- br-menu-item -->
+        <li class="br-menu-item">
+          <a href="#" class="br-menu-link with-sub">
             <i class="menu-item-icon ion-ios-pie-outline tx-20"></i>
             <span class="menu-item-label">Charts</span>
           </a><!-- br-menu-link -->
           <ul class="br-menu-sub">
             <li class="sub-item"><a href="chart-morris.html" class="sub-link">Morris Charts</a></li>
             <li class="sub-item"><a href="chart-flot.html" class="sub-link">Flot Charts</a></li>
-            <li class="sub-item"><a href="chart-chartjs.html" class="sub-link">Chart JS</a></li>
-            <li class="sub-item"><a href="chart-echarts.html" class="sub-link">ECharts</a></li>
-            <li class="sub-item"><a href="chart-rickshaw.html" class="sub-link">Rickshaw</a></li>
-            <li class="sub-item"><a href="chart-chartist.html" class="sub-link">Chartist</a></li>
-            <li class="sub-item"><a href="chart-sparkline.html" class="sub-link">Sparkline</a></li>
-            <li class="sub-item"><a href="chart-peity.html" class="sub-link">Peity</a></li>
           </ul>
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
@@ -119,24 +123,12 @@
           <ul class="br-menu-sub">
             <li class="sub-item"><a href="background.html" class="sub-link">Background</a></li>
             <li class="sub-item"><a href="border.html" class="sub-link">Border</a></li>
-            <li class="sub-item"><a href="height.html" class="sub-link">Height</a></li>
-            <li class="sub-item"><a href="margin.html" class="sub-link">Margin</a></li>
-            <li class="sub-item"><a href="padding.html" class="sub-link">Padding</a></li>
-            <li class="sub-item"><a href="position.html" class="sub-link">Position</a></li>
-            <li class="sub-item"><a href="typography-util.html" class="sub-link">Typography</a></li>
-            <li class="sub-item"><a href="width.html" class="sub-link">Width</a></li>
           </ul>
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
           <a href="pages.html" class="br-menu-link">
             <i class="menu-item-icon icon ion-ios-paper-outline tx-22"></i>
             <span class="menu-item-label">Apps &amp; Pages</span>
-          </a><!-- br-menu-link -->
-        </li><!-- br-menu-item -->
-        <li class="br-menu-item">
-          <a href="layouts.html" class="br-menu-link">
-            <i class="menu-item-icon icon ion-ios-book-outline tx-22"></i>
-            <span class="menu-item-label">Layouts</span>
           </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
       </ul><!-- br-sideleft-menu -->
