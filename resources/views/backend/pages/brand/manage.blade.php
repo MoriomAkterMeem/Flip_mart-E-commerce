@@ -3,19 +3,25 @@
 @section('body')
 
 <!-- ########## START: MAIN PANEL ########## -->
-<div class="br-mainpanel">
+  <div class="br-mainpanel">
     <div class="br-pagetitle">
         <i class="icon icon ion-ios-bookmarks-outline"></i>
         <div>
           <h4>Data Table</h4>
           <p class="mg-b-0">DataTables is a plug-in for the jQuery Javascript library.</p>
         </div>
-      </div><!-- d-flex -->
+    </div><!-- d-flex -->
 
-      <div class="br-pagebody">
-        <div class="br-section-wrapper">
-          <h2 class="br-section-label">Manage All Brands</h2>
-          <p class="br-section-text">Searching, ordering and paging goodness will be immediately added to the table, as shown in this example.</p>
+      <section class="content mt-3">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- left column -->
+            <div class="col-md-12">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="display-4 text-center tx-30">Manage All Brand</h3>
+                    </div>
 
           <div class="table-hover">
             <table id="datatable1" class="table display responsive nowrap">
@@ -82,6 +88,10 @@
               </tbody>
             </table>
           </div><!-- table-wrapper -->
-        </div><!-- br-section-wrapper -->
-      </div><!-- br-pagebody -->
-</div>
+          </div><!-- br-pagebody -->
+            </div>
+            <!-- /.card -->
+        </div>  
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>

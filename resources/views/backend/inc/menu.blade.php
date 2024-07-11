@@ -81,6 +81,7 @@
             <li class="sub-item"><a href="{{route('slider.create')}}" class="sub-link">Add New Slider</a></li>
           </ul>
         </li><!-- br-menu-item -->
+        
         <li class="br-menu-item">
           <a href="#" class="br-menu-link with-sub">
             <i class="menu-item-icon ion-ios-pie-outline tx-20"></i>

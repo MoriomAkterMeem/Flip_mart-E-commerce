@@ -20,6 +20,8 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('image')->nullable();
             $table->string('address')->nullable();
+            $table->integer('status')->default(0)->comment('0 for Inactive,1 for Active');
+            $table->enum('role',['admin','agent','user'])->default('user');
             $table->integer('is_admin')->default(0)->comment('0 for admin,1 for user');
             $table->rememberToken();
             $table->timestamps();
